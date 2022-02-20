@@ -1,2 +1,2 @@
 # interface-netflix
-Clonando a interface da Netflix.
+Clonando a interface do Netflix.
