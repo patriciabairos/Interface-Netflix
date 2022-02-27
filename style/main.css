@@ -1,0 +1,38 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: arial black;
+    font-size: 25px;
+}
+
+.profiles-gate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
